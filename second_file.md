@@ -9,9 +9,9 @@ Hello, World!
 * SQL
 * HLA
 
-1. 
-2. 
-3. 
+1. Windows 
+2. Linux
+3. MacOS
 ---
 
 
