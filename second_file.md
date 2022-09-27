@@ -15,4 +15,4 @@ Hello, World!
 ---
 
 
-[Back](https://kondratyusha.github.io/cse15l-lab-reports/)
+[Back](index.html)
