@@ -4,13 +4,13 @@
 
 Install for your operating system.
 
-![image](Lab_1_vscode.png)
-
 [Visual Studio Code](https://code.visualstudio.com/download)
+
+![image](Lab_1_vscode.png)
 
 ## 2. Connect to cs15lfa22 Account Using SSH
 
-* If you are running Windows OS, Install OpenSSH on your computer: ![OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+* If you are running Windows OS, Install OpenSSH on your computer: [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 * Look up your course-specific account for CSE15L here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
@@ -20,7 +20,7 @@ ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
 ![image](Lab_1_ssh.png)
 
-***It is possible that your CSE 15L specific account might not be yet available for use, try using your TritonLink username.***
+***NOTE: It is possible that your CSE 15L specific account might not be yet available for use, try using your TritonLink username.***
 
 ## 3. Try Some Commands on The Remote Machine
 
@@ -89,3 +89,5 @@ scp /Users/kondr/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ssh cs15lfa22zz@ieng6.ucsd.edu "java WhereAmI"
 ```
 ![image](Lab_1_optimized.png)
+
+[Back](index.html)
