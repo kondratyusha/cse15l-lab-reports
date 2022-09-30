@@ -2,7 +2,7 @@
 
 ## 1. Install Visual Studio Code
 
-Install for your operating system.
+Install Visual Studio Code for your operating system.
 
 [Visual Studio Code](https://code.visualstudio.com/download)
 
