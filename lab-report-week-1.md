@@ -14,7 +14,7 @@ Install for your operating system.
 
 * Look up your course-specific account for CSE15L here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
-* Open terminal in VS Code (ctrl or command + `).<br>Enter this command and do not forget to enter your unique letters instead of **zz**.
+* Open terminal in VS Code (ctrl or command + ` ).<br>Enter this command and do not forget to enter your unique letters instead of **zz**.
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
@@ -38,7 +38,7 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 
 ## 4. Moving Files over SSH with SCP
 
-* We will be moving and using WhereAmI.java file to demonstrate the SCP and diffent directories on different machines.
+* We will be moving and using WhereAmI.java file to demonstrate the SCP and different directories on different machines.
 * Create WhereAmI.java file on your machine.
 ```
 class WhereAmI {
@@ -69,7 +69,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
 ssh-keygen
 ```
-**Note**: When given the prompt Enter file in which to save the key:<br>Press enter again to specify the default path and take note of it.
+**Note**: When given the prompt to Enter file in which to save the key:<br>Press enter again to specify the default path and take note of it.
 
 * Now, make `.ssh` directory on your remote machine by running:
 ```
