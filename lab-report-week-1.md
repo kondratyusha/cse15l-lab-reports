@@ -6,7 +6,7 @@ Install Visual Studio Code for your operating system,  following the instruction
 
 When Visual Studio Code is installed, you will see a window that looks like this.
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="Lab_1_vscode.png" alt="drawing" width="500"/>
 
 ## 2. Connect to cs15lfa22 Account Using SSH
 
