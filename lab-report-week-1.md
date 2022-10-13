@@ -2,13 +2,11 @@
 
 ## 1. Install Visual Studio Code
 
-Install Visual Studio Code for your operating system,  following the instructions to download and install it on your computer.
+Install Visual Studio Code for your operating system,  following the instructions to download and install it on your computer. [Visual Studio Code](https://code.visualstudio.com/download)
 
 When Visual Studio Code is installed, you will see a window that looks like this.
 
-[Visual Studio Code](https://code.visualstudio.com/download)
-
-![image](Lab_1_vscode.png)
+<img src="drawing.jpg" alt="drawing" width="200"/>
 
 ## 2. Connect to cs15lfa22 Account Using SSH
 
