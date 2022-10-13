@@ -2,7 +2,9 @@
 
 ## 1. Install Visual Studio Code
 
-Install Visual Studio Code for your operating system.
+Install Visual Studio Code for your operating system,  following the instructions to download and install it on your computer.
+
+When Visual Studio Code is installed, you will see a window that looks like this.
 
 [Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -24,6 +26,8 @@ ssh cs15lfa22zz@ieng6.ucsd.edu
 
 ## 3. Try Some Commands on The Remote Machine
 
+Try some commands on your computer and on remote machine, note the difference.
+
 Sample commands to try:
 
 ```
@@ -35,6 +39,8 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 
 ![image](Lab_1_commands.png)
+
+Use `exit` command to disconnect from the remote computer.
 
 ## 4. Moving Files over SSH with SCP
 
@@ -76,9 +82,9 @@ ssh-keygen
 mkdir .ssh
 ```
 
-* Then SCP the public key to the remote machine.<br>**Do not forget to enter your local username instead of kondr.**
+* Then SCP the public key to the remote machine.<br>**Do not forget to enter your local username instead of joe.**
 ```
-scp /Users/kondr/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 ![image](Lab_1_ssh_key.png)
 
@@ -87,6 +93,14 @@ scp /Users/kondr/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 * It is possible to write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit.<br>Try running some commands, for example `ls` or `java WhereAmI`:
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu "java WhereAmI"
+```
+
+* Use semicolons to run several commands on the same lab. Try:
+```
+javac WhereAmI.java; java WhereAmI
+```
+```
+ssh cs15lfa22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 ![image](Lab_1_optimized.png)
 
