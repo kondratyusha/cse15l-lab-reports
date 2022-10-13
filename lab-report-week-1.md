@@ -18,7 +18,8 @@ When Visual Studio Code is installed, you will see a window that looks like this
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
-![image](Lab_1_ssh.png)
+
+<img src="Lab_1_ssh.png" alt="drawing" width="500"/>
 
 ***NOTE: It is possible that your CSE 15L specific account might not be yet available for use, try using your TritonLink username.***
 
@@ -36,7 +37,7 @@ ls /home/linux/ieng6/cs15lfa22/cs15lfa22abc
 cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 
-![image](Lab_1_commands.png)
+<img src="Lab_1_commands.png" alt="drawing" width="500"/>
 
 Use `exit` command to disconnect from the remote computer.
 
@@ -63,9 +64,12 @@ java WhereAmI
 ```
 scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
-![image](Lab_1_scp.png)
+
+<img src="Lab_1_scp.png" alt="drawing" width="500"/>
+
 * Log into the remote machine to try running WhereAmI.java:
-![image](Lab_1_WhereAmI_remote.png)
+
+<img src="Lab_1_WhereAmI_remote.png" alt="drawing" width="500"/>
 
 ## 5. Connecting to The Remote Machine Using SSH Keys without Presenting a Password
 
@@ -84,7 +88,8 @@ mkdir .ssh
 ```
 scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-![image](Lab_1_ssh_key.png)
+
+<img src="Lab_1_ssh_key.png" alt="drawing" width="500"/>
 
 ## 6. Optimizing Remote Running
 
@@ -100,6 +105,7 @@ javac WhereAmI.java; java WhereAmI
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
-![image](Lab_1_optimized.png)
+
+<img src="Lab_1_optimized.png" alt="drawing" width="500"/>
 
 [Back](index.html)
