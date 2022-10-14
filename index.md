@@ -4,4 +4,6 @@ Hello, World!
 
 [Week 1 Lab Report](lab-report-week-1.html)
 
+[Week 3 Lab Report](lab-report-week-3.html)
+
 [Forward to Second File](second_file.html)
