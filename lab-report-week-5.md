@@ -9,7 +9,7 @@
 
 For example, `less -p` can be used to find an option for a command in man:
 
-<img src="Lab_5_1.png" alt="drawing" width="500"/>
+<img src="Lab_5_1.png" alt="drawing" width="800"/>
 
 Another useful example is 
 
