@@ -11,7 +11,15 @@ For example, `less -p` can be used to find an option for a command in man:
 
 <img src="Lab_5_1.png" alt="drawing" width="800"/>
 
-Another useful example is 
+Another useful example is `less -I` which will ingnore the case of the searched pattern.
+
+```
+less -I -pCONSUME journal.pbio.0020302.txt
+```
+
+<img src="Lab_5_2.png" alt="drawing" width="800"/>
+
+
 
 ## `find` command
 
