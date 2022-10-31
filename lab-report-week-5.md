@@ -82,6 +82,74 @@ Also, `find -size -200M` will find all files in a directory that are less than 2
 
 ## `grep` command
 
+1) `grep -c`
+```
+-c, --count
+    Suppress normal output; instead print a count of matching lines for each input  file. With  the  -v, --invert-match option (see below), count non-matching lines.
+```
 
+Usage example is `grep -c "cell" ./*/* | less`, this command will conviniently show files and number of lines that match in these files.
+
+```
+./911report/chapter-1.txt:2
+./911report/chapter-10.txt:0
+./911report/chapter-11.txt:2
+./911report/chapter-12.txt:0
+./911report/chapter-13.1.txt:0
+./911report/chapter-13.2.txt:0
+./911report/chapter-13.3.txt:4
+./911report/chapter-13.4.txt:13
+./911report/chapter-13.5.txt:7
+./911report/chapter-2.txt:13
+./911report/chapter-3.txt:9
+./911report/chapter-5.txt:7
+./911report/chapter-6.txt:13
+./911report/chapter-7.txt:1
+./911report/chapter-8.txt:11
+./911report/chapter-9.txt:0
+./911report/preface.txt:0
+./biomed/1468-6708-3-1.txt:4
+./biomed/1468-6708-3-10.txt:0
+./biomed/1468-6708-3-3.txt:1
+./biomed/1468-6708-3-4.txt:0
+./biomed/1468-6708-3-7.txt:3
+./biomed/1471-2091-2-10.txt:58
+./biomed/1471-2091-2-11.txt:153
+./biomed/1471-2091-2-12.txt:3
+./biomed/1471-2091-2-13.txt:3
+./biomed/1471-2091-2-16.txt:1
+```
+
+2) `grep -l` 
+
+```
+-l, --files-with-matches
+    Suppress  normal output; instead print the name of each input file from which output would normally have been printed. The scanning will stop on the first match.
+```
+
+This command `grep -l "cse" ./*/*` will show filenames that match regex pattern.
+
+```
+[cs15lfa22ow@ieng6-201]:technical:272$ grep -l "cse" ./*/*
+./biomed/1471-2164-4-6.txt
+./biomed/1471-2202-2-1.txt
+./biomed/1471-2350-2-11.txt
+```
+
+3) `grep -o`
+
+```
+-o, --only-matching
+    Print only the matched (non-empty) parts of a matching line, with each such part on a separate output line.
+```
+
+Usage example is `grep -o "cse" ./*/*`, this command will show all matching lines in all files in `/technical` directory.
+
+```
+[cs15lfa22ow@ieng6-201]:technical:275$ grep -o "cse" ./*/*
+./biomed/1471-2164-4-6.txt:cse
+./biomed/1471-2202-2-1.txt:cse
+./biomed/1471-2350-2-11.txt:cse
+```
 
 [Back](index.html)
