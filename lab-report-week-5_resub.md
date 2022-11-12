@@ -4,7 +4,7 @@
 
 1) `find -type` will find files of specified type in a directory.
 
-`find -type d` will find directories in a working directory and below.
+* `find -type d` will find directories in a working directory and below.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:376$ find -type d
@@ -21,7 +21,7 @@
 ./plos
 ```
 
-`find -type f -name '*.txt'` will find all .txt files in a working directory and below.
+* `find -type f -name '*.txt'` will find all .txt files in a working directory and below.
 
 ```
 ./government/About_LSC/diversity_priorities.txt
@@ -48,7 +48,7 @@
 ./government/Gen_Account_Office/InternalControl_ai00021p.txt
 ```
 
-`find -type d -name '[Gg]*'` will find directories starting with G or g.
+* `find -type d -name '[Gg]*'` will find directories starting with G or g.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:402$ find -type d -name '[Gg]*'
@@ -57,7 +57,7 @@
 ```
 2) `find -amin n` will show files accessed in last n minutes.
 
-Usefull application is `find / -amin -60`, this command will show all files which were accessed in last 60 min.
+* Usefull application is `find / -amin -60`, this command will show all files which were accessed in last 60 min.
 
 ```
 [cs15lfa22ow@ieng6-201]:technical:245$ find ./ -amin -60
@@ -74,7 +74,7 @@ Usefull application is `find / -amin -60`, this command will show all files whic
 ./plos
 ```
 
-`find -type d -amin -60` will find all directories used in past hour.
+* `find -type d -amin -60` will find all directories used in past hour.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:417$ find -type d -amin -60
@@ -91,7 +91,7 @@ Usefull application is `find / -amin -60`, this command will show all files whic
 ./plos
 ```
 
-`find -type f -amin -10` will find all files used in past ten minutes.
+* `find -type f -amin -10` will find all files used in past ten minutes.
 
 ```
 [cs15lfa22ow@ieng6-203]:biomed:431$ find -type f -amin -10
@@ -100,7 +100,7 @@ Usefull application is `find / -amin -60`, this command will show all files whic
 
 3) Another useful option for the `find` command is `find -size n`. This option will find all files in a directory that match number n.
 
-`find -size +200k` will find all files in a directory that are larger than 200 kilobytes.
+* `find -size +200k` will find all files in a directory that are larger than 200 kilobytes.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:437$ find -size +200k
@@ -114,7 +114,7 @@ Usefull application is `find / -amin -60`, this command will show all files whic
 ./government/Gen_Account_Office/d01591sp.txt
 ```
 
-`find -size -1500c` will find all files in a directory that are smaller than 1500 bytes.
+* `find -size -1500c` will find all files in a directory that are smaller than 1500 bytes.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:445$ find -size -1500c
@@ -126,7 +126,7 @@ Usefull application is `find / -amin -60`, this command will show all files whic
 ./plos/pmed.0020226.txt
 ```
 
-`find -size 4` will find all files in a directory that are 4  512-byte blocks.
+* `find -size 4` will find all files in a directory that are 4  512-byte blocks.
 
 ```
 [cs15lfa22ow@ieng6-203]:technical:456$ find -size 4
