@@ -6,6 +6,6 @@ Hello, World!
 
 [Week 3 Lab Report](lab-report-week-3.html)
 
-[Week 5 Lab Report](lab-report-week-5.html)
+[Week 5 Lab Report](lab-report-week-5.html) [(Resubmittion)](lab-report-week-5_resub.html)
 
 [Forward to Second File](second_file.html)
