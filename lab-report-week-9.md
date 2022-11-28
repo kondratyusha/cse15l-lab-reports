@@ -39,15 +39,15 @@ else
 fi
 ```
 
-1. https://github.com/sparvathaneni15/list-examples-grader
+1) https://github.com/sparvathaneni15/list-examples-grader
 
 <img src="Lab_9_1.png" alt="drawing" width="500"/>
 
-2. https://github.com/WojtekTB/list-examples-grader
+2) https://github.com/WojtekTB/list-examples-grader
 
 <img src="Lab_9_2.png" alt="drawing" width="500"/>
 
-3. https://github.com/aOrtel22/list-examples-grader.git
+3) https://github.com/aOrtel22/list-examples-grader.git
 
 <img src="Lab_9_3.png" alt="drawing" width="500"/>
 
